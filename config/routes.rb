@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  get 'extweet' =>  'extweet#index'
+  root 'extweet#index'
+  resources :extweet
 end

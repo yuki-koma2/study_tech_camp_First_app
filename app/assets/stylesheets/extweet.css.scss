@@ -76,6 +76,14 @@ ul li:hover a {
 	background-color: #B3B3B3;
 	padding-top: 150px;
 	padding-bottom: 150px;
+	text-align: center;
+	height: 30em;
+	background-image: image-url("page_top.jpg"); 
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
 }
 .light {
 	font-weight: bold;
@@ -112,6 +120,7 @@ ul li:hover a {
 footer {
 	background-color: #FFFFFF;
 	padding-bottom: 35px;
+
 }
 .footer_column {
 	width: 50%;
@@ -183,8 +192,12 @@ footer .footer_column p {
 	padding-top: 60px;
 	padding-bottom: 60PX;
 	margin-bottom: 0px;
-	background-image: url(../images/pattern.png);
-	background-repeat: repeat;
+	background-image: image-url("page_top.jpg"); 
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
 }
 footer {
 	display: inline-block;
