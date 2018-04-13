@@ -1,0 +1,11 @@
+#phpmyadimin
+https://8081e02de9724bbda28eeaca51c08daf.vfs.cloud9.us-east-2.amazonaws.com:8081/phpmyadmin/#PMAURL-0:index.php?db=&table=&server=1&target=&token=2bd9caa24693012c42fe00eda94f78a8
+
+#
+sudo service httpd start
+sudo service mysqld start
+
+#
+rails s -p $PORT -b $IP
+
+https://8081e02de9724bbda28eeaca51c08daf.vfs.cloud9.us-east-2.amazonaws.com/
