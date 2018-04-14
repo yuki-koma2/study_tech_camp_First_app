@@ -21,6 +21,9 @@ class ExtweetsController < ApplicationController
     end
     
     def update
+        extweet = Extweet.find(params[:id])
+        extweet.update(create_params)
+        redirect_to action: :index
     end
     
     def delete
