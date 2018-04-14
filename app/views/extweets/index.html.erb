@@ -6,7 +6,9 @@
   </section>
   <!--Tweet Section-->
   <section class="about" id="about">
-    <h2 class="tweet_title">Title</h2>
-    <p class="tweet_text text_column">text</p>
+      <% @extweet.each do |tweet| %>
+    <h2 class="tweet_title"><%= tweet.title %></h2>
+    <p class="tweet_text text_column"><%= tweet.text %></p>
+    <% end %>
   </section>
   

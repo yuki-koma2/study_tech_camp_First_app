@@ -9,3 +9,10 @@ sudo service mysqld start
 rails s -p $PORT -b $IP
 
 https://8081e02de9724bbda28eeaca51c08daf.vfs.cloud9.us-east-2.amazonaws.com/
+
+	
+      
+      
+      
+
+          
