@@ -13,9 +13,11 @@ class ExtweetsController < ApplicationController
     def create
         Extweet.create(create_params)
         redirect_to action: :index
+        # binding.pry
     end
     
     def edit
+        @extweet = Extweet.find(params[:id])
     end
     
     def update
@@ -27,7 +29,7 @@ class ExtweetsController < ApplicationController
     
     private
     def create_params
-        params.permit(:title,:text)
+        params.require(:extweet).permit(:title, :text)
     end
 
 end

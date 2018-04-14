@@ -5,10 +5,10 @@
     <p class="tagline">Light is a simple one page website</p>
   </section>
   <!--Tweet Section-->
-  <section class="about" id="about">
-      <% @extweet.each do |tweet| %>
-    <h2 class="tweet_title"><%= tweet.title %></h2>
+  <% @extweet.each do |tweet| %>
+  <section class="about col-8" id="about">
+    <h2 class="tweet_title bg-light"><%= tweet.title %></h2>
     <p class="tweet_text text_column"><%= tweet.text %></p>
-    <% end %>
+    <%= link_to 'Edit', "/extweets/#{tweet.id}/edit", method: :get %>
   </section>
-  
+  <% end %>
